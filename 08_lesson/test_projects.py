@@ -5,8 +5,8 @@ import requests
 base_url = "https://yougile.com/"
 
 auth_param = {
-         'login' : 'dozen-993@mail.ru',
-         'password' : 'ST!2iPJ!dJPZAwZ'
+         'login' : '',
+         'password' : ''
      }
 GLOBAL_TOKEN = None
 
