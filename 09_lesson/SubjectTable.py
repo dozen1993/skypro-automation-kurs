@@ -35,3 +35,4 @@ class SubjectTable:
         conn.execute(self.__scripts['delete_by_subject_title'], {'subject_to_delete': subject_name})
         conn.commit()
         conn.close()
+#

@@ -32,4 +32,4 @@ def test_delete_subject():
     db.delete_subject(name)
     res2=db.get_subjects()
     assert len(res1)>len(res2)
-
+#
