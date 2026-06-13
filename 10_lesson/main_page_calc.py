@@ -4,7 +4,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class MainPageCalc:
     def __init__(self,driver):
-                self._driver = driver
+        self._driver = driver
         self._driver.get('https://bonigarcia.dev/selenium-webdriver-java/slow-calculator.html')
         self._driver.maximize_window()
         self.delay_value = 0
