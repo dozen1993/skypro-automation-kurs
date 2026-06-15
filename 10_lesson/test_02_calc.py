@@ -2,12 +2,13 @@ from selenium import webdriver
 from main_page_calc import MainPageCalc
 import allure
 
+
 @allure.story("Выполнение операции сложения")
 @allure.epic("Калькулятор")
 @allure.title("Получение результата сложения ")
 @allure.description("Сложение 7 и 8")
 @allure.severity("critical")
-@allure.suit('Калькулятор')
+@allure.suite('Калькулятор')
 def test_calc():
     browser = webdriver.Chrome()
     main_page = MainPageCalc(browser)
